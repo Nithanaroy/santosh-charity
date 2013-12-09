@@ -1,0 +1,144 @@
+body {
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.85em;
+	color:#888;
+	font-size: 13pt;
+	font-weight: 300;
+}
+.wrapper {
+	background-image: url('../images/bg.png');
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);/*padding: 8em 0 8em 0;*/
+	/*text-align: center;*/
+	min-height:500px;
+}
+.left-nav {
+	background: #FFF;
+	padding: 8px 0;
+	position:fixed;
+	top: 20%;
+	border-radius: 0 8px 8px 0;
+	border: 1px solid #AAA;
+	box-shadow: 0 0 5px #AAA;
+}
+.left-nav a {
+	padding:5px 30px 5px 15px;
+	color: #AAA;
+	display:block;
+}
+.left-nav a.active {
+	background: #000;
+}
+article {
+	padding:20px;
+}
+.wrapper-first {
+	padding-top: 7em;
+}
+.text-center {
+	text-align:center;
+}
+.bg-white {
+	background: #FFF;
+}
+h1 strong {
+	color: #3c97c6;
+}
+.box {
+	background: #fff;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+	text-align: center;
+	/* [disabled]padding: 2em 2em 2.5em 2em;
+*/
+}
+/*.box .image-full {
+	position: relative;
+	left: 2em;
+	top: 2em;
+	margin: -4em 0 4em -4em;
+	width: auto;
+}*/
+a.polaroid {
+	background: #fff;
+	display: inline;
+	float: left;
+	margin: 0 0 27px 30px;
+	width: auto;
+	padding: 10px 10px 15px;
+	text-align: center;
+	font-family: "Marker Felt", sans-serif;
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.25);
+	-webkit-transform: rotate(-2deg);
+	-webkit-transition: -webkit-transform .15s linear;
+	-moz-transform: rotate(-2deg);
+}
+
+a.polaroid:hover {
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-webkit-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 3px 6px rgba(0,0,0,.5);
+	position: relative;
+	z-index: 5;
+}
+div.portfolio {
+/*	background:url(../images/wood-bg.jpg) repeat-x;*/
+	color: #222222;
+}
+.box p {
+	font-size: 13px;
+	line-height:normal;
+}
+.box h3 {
+	margin-bottom: 0.25em;
+}
+.box .image-centered {
+	margin-bottom: 1.25em;
+}
+.contact {
+	background-color: #303030;
+	color: #999;
+	text-shadow: -1px -1px 0px #181818;
+	
+}
+.contact h2 {
+	color:#FFF;
+}
+footer {
+	margin: 3em 0 0 0;
+	text-align: center;
+	
+}
+footer > p {
+	font-size: 1.25em;
+}
+#copyright {
+	color: #666;
+	font-size: 1em;
+}
+#copyright a {
+	color: inherit;
+	-moz-transition: color .2s ease-in-out;
+	-webkit-transition: color .2s ease-in-out;
+	-o-transition: color .2s ease-in-out;
+	-ms-transition: color .2s ease-in-out;
+	transition: color .2s ease-in-out;
+}
+#copyright a:hover {
+	color: #777;
+}
+.vote {
+	margin:0;
+	padding:0;
+	width:90px;
+	height:90px;
+	position:fixed;
+	z-index:999;
+	bottom:10px;
+	right:10px;
+	background:url(../images/vote-for-me_button.png) no-repeat;
+}

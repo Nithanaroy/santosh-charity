@@ -34,6 +34,7 @@ jQuery(function() {
 
 			if (h.charAt(0) == '#' && h.length > 1 && (article = jQuery('article#' + h.substring(1))).length > 0)
 			{
+				t.addClass('active').siblings().removeClass('active');
 				var pos = Math.max(article.parent().offset().top - _nav.height() + 15, 0);
 				e.preventDefault();
 				_bh.animate({ scrollTop: pos }, 'slow', 'swing');
