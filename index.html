@@ -23,22 +23,42 @@
 </head>
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="nav">
+  
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    <a class="navbar-brand" href="#">Santosh Children Home</a> </div>
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> 
+      <span class="sr-only">Toggle navigation</span> 
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+      <span class="icon-bar"></span> 
+     </button>
+    <a class="navbar-brand" href="index.html">Santosh Children Home</a> 
+  </div>
+
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#home">Home</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="children.html">The Children</a></li>
+      <li><a href="#">How can you help</a></li>
+      <li><a href="#">Documents</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">FAQ</a></li>
+      <li><a href="#">Newsletters</a></li>
     </ul>
   </div>
 </nav>
-<nav class="left-nav"> <a href="#home" class="active">Home</a> <a href="#work">Work</a> <a href="#portfolio">Portfolio</a> <a href="#contact">Contact</a> </nav>
 
-<!-- Home -->
+<nav class="left-nav">
+  <button type="button" class="btn btn-default" style="margin-bottom: 10px;">
+    <span class="glyphicon glyphicon-backward"></span>
+  </button> 
+  <a href="#home" class="active">Intro</a> 
+  <a href="#work">Projects</a> 
+  <a href="#portfolio">Child Care</a> 
+  <a href="#support">Support Us</a> 
+  <a href="#contact">Contact</a> 
+</nav>
 
+<!-- Intro -->
 <div class="wrapper wrapper-first home bg-white">
   <article class="container text-center" id="home"> <img src="images/home_1_op.JPG" alt="" class="pull-left" />
     <div class="pull-left" style="width: 65%; margin-left: 20px;">
@@ -47,12 +67,12 @@
       </header>
       <p>Santosh Charitable Trust is an organization that aims to provide destitute and orphaned children with an opportunity to realize their fundamental right to a better life. The Charity aims to provide the children with an environment where they are nurtured and educated, equipping them for the future. Santosh Children's Home houses thirty five children aged between 4 and 15 years from various cultural backgrounds. In addition, the Trust is building a home for girls.</p>
       <p>Santosh Charitable Trust operates entirely on donations from philanthropic individuals, and well wishers. The Charity is registered with the Karnataka State Government with Reg. No. 138/7-08, and all donations are tax exempt under section 80G (<a href="http://docs.google.com/fileview?id=0B7mPkijAFwqfOGMzYTcwMTgtYmZiZC00MmE3LWFhMDMtZTQ4NjIzYzY5MDUw&amp;hl=en" target="_blank">certificate</a>).</p>
-      <a href="http://www.santoshcharity.org/TheChildren" class="btn btn-primary btn-lg">Meet the children</a> </div>
+      <a href="children.html" class="btn btn-primary btn-lg">Meet the children</a> </div>
     <div class="clearfix"></div>
   </article>
 </div>
 
-<!-- Work -->
+<!-- Projects -->
 <div class="wrapper work">
   <article id="work" class="container">
     <header class="pull-left" style="width: 62%">
@@ -75,7 +95,7 @@
   </article>
 </div>
 
-<!-- Portfolio -->
+<!-- Child care -->
 <div class="wrapper portfolio bg-white">
   <article id="portfolio" class="container">
     <header>
@@ -97,8 +117,10 @@
     <p>Santosh Children's Home functions out of rented premises. These premises consist of a kitchen, an office room, and rooms for children. As you can see in the slideshow below, the living standard is very basic. There is an open area around the building where the children play. A small van has been recently purchased, thanks to donations, to enable the smaller children to travel safely to and from school.</p>
   </article>
 </div>
+
+<!-- Support Us -->
 <div class="wrapper">
-  <div class="container">
+  <article class="container" id="support">
     <div class="panel panel-primary"  style="margin-top:40px">
       <div class="panel-heading">
         <h3 class="panel-title">Support Us</h3>
@@ -113,8 +135,7 @@
         <p>For other longer term help, please see <a class="btn btn-primary" href="http://www.santoshcharity.org/how-can-you-help" role="button">How You Can Help</a></p>
       </div>
     </div>
-  </div>
-</div>
+  </article>
 </div>
 
 <!-- Contact -->
