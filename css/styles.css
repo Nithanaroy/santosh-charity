@@ -119,19 +119,19 @@ div.portfolio {
 .box .image-centered {
 	margin-bottom: 1.25em;
 }
-.contact {
+.legalNotice {
 	background-color: #303030;
 	color: #999;
 	text-shadow: -1px -1px 0px #181818;
-	
+
 }
-.contact h2 {
+.legalNotice h2 {
 	color:#FFF;
 }
 footer {
 	margin: 3em 0 0 0;
 	text-align: center;
-	
+
 }
 footer > p {
 	font-size: 1.25em;
