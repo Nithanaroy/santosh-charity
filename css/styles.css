@@ -7,16 +7,16 @@
 body {
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
-	line-height: 1.85em;
-	color:#888;
-	font-size: 13pt;
+	line-height: 1.55em;
+	color:#050505;
+	font-size: 12pt;
 	font-weight: 300;
 }
 .wrapper {
 	background-image: url('../images/bg.png');
 	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);/*padding: 8em 0 8em 0;*/
 	/*text-align: center;*/
-	min-height:400px;
+	min-height:200px;
 }
 .left-nav {
 	background: #FFF;
@@ -39,7 +39,7 @@ article {
 	padding:20px;
 }
 .wrapper-first {
-	padding-top: 7em;
+	padding-top: 5em;
 }
 .text-center {
 	text-align:center;
